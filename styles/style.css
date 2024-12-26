@@ -1,1 +1,84 @@
-/* место для вашего кода */
+
+/* ============================= Меню =============================*/
+
+
+.header
+{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    padding:20px 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.header__menu
+{
+    display: flex;
+    gap:10px;
+}
+
+.header__menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header__menu ul li
+{
+    list-style:circle
+}
+
+.logo
+{
+    width: 100px;
+    text-align: center;
+}
+
+/* ============================= Ковёр =============================*/
+.cover {
+    display: grid;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Raleway;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.cover h1 {
+    width:1000px;
+    height:385px;
+    font-size: 100px;
+    z-index: 1;
+    align-self: center;
+    margin: 40px 50px;
+    text-transform: uppercase;
+}
+
+.cover h1 span {
+    display: block;
+    letter-spacing: 30px
+}
+
+.cover h1 span:nth-child(1) {
+    text-align: start;
+}
+
+.cover h1 span:nth-child(2) {
+    text-align: center;
+}
+
+.cover h1 span:nth-child(3) {
+    text-align: end;
+}
+
+.cover img
+{
+    z-index: 0;
+}
+
+
+
+.cover .description
+{
+    z-index: 1;
+}
