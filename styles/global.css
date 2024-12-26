@@ -27,10 +27,11 @@ blockquote {
 
 a {
   color: inherit;
+  display: block;
 }
 
 img {
-  width: 100%;
+  width: 98%;
 }
 
 button {
